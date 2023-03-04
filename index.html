@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Entrenador de neuronas</title>
+  </head>
+  <body>
+    <script src="./app.js"></script>
+    <div class="container">
+      <h1>ENTRENADOR DE NEURONAS</h1>
+      <p>Ingrese los valores iniciales:</p>
+      <div class="valores">
+        ∅: <input type="text" id="error" /> E:
+        <input type="text" id="FactorA" /> w1:
+        <input type="text" id="peso1" /> w2: <input type="text" id="peso2" />
+        <br />
+        <button onclick="evaluacion()">calcular</button>
+      </div>
+      <div class="resultados" id="resultados"></div>
+    </div>
+  </body>
+</html>
