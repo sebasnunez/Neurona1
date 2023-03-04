@@ -67,7 +67,7 @@ function evaluacion() {
             alert("No se pudo entrenar la neurona con los valores ingresados, por favor ingrese otros valores e intentelo nuevamente.");
         } else {
 
-            document.getElementById("resultados").innerHTML = "<p>La neurona fue entrenada en " + counter + " intentos y estos fueron los resultados</p><p>y1 = " + y1 + "<br>y2 = " + y2 + "<br>y3 = " + y3 + "<br>y4 = " + y4 + "</p>";
+            document.getElementById("resultados").innerHTML = "<p>La neurona fue entrenada en " + counter + " intentos y estos fueron los resultados:</p><p>y1 = " + y1 + "<br>y2 = " + y2 + "<br>y3 = " + y3 + "<br>y4 = " + y4 + "</p>";
 
         }
     }
